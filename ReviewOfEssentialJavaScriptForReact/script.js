@@ -181,7 +181,6 @@ const summary = `${title} is a book with ${pages} pages, and was written by ${au
 summary;
 
 // Ternary Operator:
-
 const pagesRange = pages > 1000 ? "over a 1000" : "less than 1000";
 pagesRange;
 console.log(`The book has ${pagesRange} pages`)
