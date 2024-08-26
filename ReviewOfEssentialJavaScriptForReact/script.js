@@ -212,3 +212,17 @@ console.log(0 && "Some String");
 
 // Using the || operator - returns the value if the condition is false.
 // truly: Works in the opposite way than the falsy value:
+console.log(true || "Some String");
+console.log(false || "Some String");
+
+console.log(book.translations.spanish);
+
+const spanishTranslation = book.translations.spanish || "NOT TRANSLATED";
+spanishTranslation;
+
+// console.log(book.reviews.librarything.reviewsCount);
+// const countWrong = book.reviews.goodreads.librarything.reviewsCount || "no data";
+// countWrong;
+
+const count = book.reviews.librarything.reviewsCount ?? "no data";
+count;
