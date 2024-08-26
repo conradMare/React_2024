@@ -198,4 +198,17 @@ console.log(`The book has ${pagesRange} pages`);
 // const getYear = (str) => {
 //   return str.split("-")[0]
 // };
-console.log(getYear(publicationDate));
+// console.log(getYear(publicationDate));
+
+// Short-Circuiting:
+// Using the && Operator - returns the value if first condition is true.
+console.log(true && "Some String");
+console.log(false && "Some String");
+console.log(hasMovieAdaptation && "This book has a movie");
+
+// falsy: 0, '', null. undefined
+console.log('jonas' && "Some String");
+console.log(0 && "Some String");
+
+// Using the || operator - returns the value if the condition is false.
+// truly: Works in the opposite way than the falsy value:
